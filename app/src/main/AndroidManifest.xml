@@ -38,7 +38,8 @@
         </service>
 
         <activity android:name=".Oneri" />
-        <activity android:name=".Skt"></activity>
+        <activity android:name=".Skt" />
+        <activity android:name=".GroceryActivity"></activity>
     </application>
 
 </manifest>

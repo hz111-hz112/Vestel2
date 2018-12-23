@@ -17,7 +17,8 @@
                 android:layout_weight="1"
                 android:text="3289 Kcal/Day"
                 android:textAlignment="center"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:paddingTop="50dp"/>
 
             <TextView
                 android:id="@+id/moneyConsumption1"
@@ -26,7 +27,8 @@
                 android:layout_weight="1"
                 android:text="257,5 TL"
                 android:textAlignment="center"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:paddingTop="50dp"/>
 
         </TableRow>
         <TableRow android:orientation="horizontal">

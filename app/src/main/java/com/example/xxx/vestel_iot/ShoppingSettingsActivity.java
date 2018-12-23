@@ -22,4 +22,8 @@ public class ShoppingSettingsActivity extends AppCompatActivity {
         Intent intent = new Intent(ShoppingSettingsActivity.this, CustomList.class);
         startActivity(intent);
     }
+    public void goToGroceryActivity(View view){
+        Intent intent = new Intent(ShoppingSettingsActivity.this, GroceryActivity.class);
+        startActivity(intent);
+    }
 }
