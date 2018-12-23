@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "436032939046",
+    "firebase_url": "https://house-7f272.firebaseio.com",
+    "project_id": "house-7f272",
+    "storage_bucket": "house-7f272.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436032939046:android:4613fc97f9990d31",
+        "android_client_info": {
+          "package_name": "com.example.xxx.vestel_iot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436032939046-fblhh0u5hbpqdut02ammiq95ngk01es4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.xxx.vestel_iot",
+            "certificate_hash": "e22864b6341ef018ceebfd48bb574e6ba7bd2cf2"
+          }
+        },
+        {
+          "client_id": "436032939046-tu8th9bkn58s0la8hborvbd36t5pbseu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCVPbdZFu3FZ5dkFHGGbKDLAQZIAg71fk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436032939046-tu8th9bkn58s0la8hborvbd36t5pbseu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

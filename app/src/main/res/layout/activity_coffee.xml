@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CoffeeActivity">
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="190dp"
+        android:layout_height="190dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp" />
+
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp" />
+
+    <RadioGroup
+        android:id="@+id/myRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:checkedButton="@+id/now">
+
+        <RadioButton
+            android:id="@+id/now"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="now"
+            />
+
+        <RadioButton
+            android:id="@+id/fifteenmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15 min"
+            />
+
+        <RadioButton
+            android:id="@+id/thirtymin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30 min" />
+
+        <RadioButton
+            android:id="@+id/onehour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 hour" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/makeCoffeeDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:onClick="makeCoffeeDetailButton"
+        android:text="Make the coffee!" />
+
+
+
+</LinearLayout>
